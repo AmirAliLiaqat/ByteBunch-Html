@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog -- ByteBunch</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-white.svg" class="logo-img d-lg-inline-block d-none">
+                    <img src="images/logo-black.svg" class="logo-img d-inline-block d-lg-none">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-uppercase justify-content-center">
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="our-work.html">Our Work</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div><!--collapse-->
+            </div><!--container-->
+        </nav>
+        <div class="container single-page-template text-center py-5">
+            <h2 class="text-white mb-4">Blog</h2>
+            <div class="header-links">
+                <a href="index.php">Home</a>&nbsp;&nbsp;   >  &nbsp;  Blog
+            </div><!--header-links-->
+        </div><!--container-->
+    </header>
+
+    <section class="blog-section p-3">
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 page_left_content">
+                            <article class="mb-4 bg-white">
+                                <div class="post-header">
+                                    <div class="time text-center">
+                                        <span class="date d-block">05</span>
+                                        <span class="months">August</span>
+                                    </div><!--time-->
+                                    <div class="title">
+                                        <h2>
+                                            <a href="">Postfix, Dovecot and Nginx TLS Encryption on Ubuntu 18.04</a>
+                                        </h2>
+                                        <span class="author mb-3">Written By <a href="" class="link">Amir</a></span>
+                                    </div><!--title-->
+                                </div><!--post-header-->
+                                <div class="post-content">
+                                    <p>
+                                        To be able to send email using desktop email client, we need to do a little bit configuration on Postfix. To receive email using desktop email client, we can install an open source IMAP server named Dovecot on Ubuntu 16.04 or 14.04 server. And to encrypt our communications, we need a TLS/SSL certificate for our...
+                                    </p>
+                                    <a href="" class="blue-btn">Read More</a>
+                                </div><!--post-content-->
+                                <div class="post-footer">
+                                    <span class="facebook_share">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=">
+                                            <img src="images/facebook_like.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="twitter_share">
+                                        <a href="https://twitter.com/intent/tweet?original_referer=/&ref_src=twsrc%5Etfw&text=&tw_p=tweetbutton&url=">
+                                            <img src="images/tweet.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="linkedin_share hidden-xs">
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/&title=&summary=1.%20Hit%20%E2%80%9CWindows%20Key%20+%20R%E2%80%9D%20to%20open%20the%20run%20dialogue%20box.%202.%20Enter%C2%A0diskpart%C2%A0and%20click%20%E2%80%9COK%E2%80%9D%20to%20open%20a%20black%20command%20prompt%20window.%20%E2%80%9Clist%20disk%E2%80%9D%20(It%20displays%20all%20the%20disks%20of%20your%20computer.%20)%20%E2%80%9Csel%20disk%200%E2%80%9D%20(...">
+                                            <img src="images/linked_share.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="google_share hidden-xs">
+                                        <a href="https://plus.google.com/share?url=">
+                                            <img src="images/google-plus-icon.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="post_comments">
+                                        <a href="" class="link">No Comment</a>
+                                    </span>
+                                </div><!--post-footer-->
+                            </article>
+                            
+                            <article class="mb-4 bg-white">
+                                <div class="post-header">
+                                    <div class="time text-center">
+                                        <span class="date d-block">05</span>
+                                        <span class="months">August</span>
+                                    </div><!--time-->
+                                    <div class="title">
+                                        <h2>
+                                            <a href="">Postfix, Dovecot and Nginx TLS Encryption on Ubuntu 18.04</a>
+                                        </h2>
+                                        <span class="author mb-3">Written By <a href="" class="link">Amir</a></span>
+                                    </div><!--title-->
+                                </div><!--post-header-->
+                                <div class="post-content">
+                                    <p>
+                                        To be able to send email using desktop email client, we need to do a little bit configuration on Postfix. To receive email using desktop email client, we can install an open source IMAP server named Dovecot on Ubuntu 16.04 or 14.04 server. And to encrypt our communications, we need a TLS/SSL certificate for our...
+                                    </p>
+                                    <a href="" class="blue-btn">Read More</a>
+                                </div><!--post-content-->
+                                <div class="post-footer">
+                                    <span class="facebook_share">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=">
+                                            <img src="images/facebook_like.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="twitter_share">
+                                        <a href="https://twitter.com/intent/tweet?original_referer=/&ref_src=twsrc%5Etfw&text=&tw_p=tweetbutton&url=">
+                                            <img src="images/tweet.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="linkedin_share hidden-xs">
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/&title=&summary=1.%20Hit%20%E2%80%9CWindows%20Key%20+%20R%E2%80%9D%20to%20open%20the%20run%20dialogue%20box.%202.%20Enter%C2%A0diskpart%C2%A0and%20click%20%E2%80%9COK%E2%80%9D%20to%20open%20a%20black%20command%20prompt%20window.%20%E2%80%9Clist%20disk%E2%80%9D%20(It%20displays%20all%20the%20disks%20of%20your%20computer.%20)%20%E2%80%9Csel%20disk%200%E2%80%9D%20(...">
+                                            <img src="images/linked_share.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="google_share hidden-xs">
+                                        <a href="https://plus.google.com/share?url=">
+                                            <img src="images/google-plus-icon.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="post_comments">
+                                        <a href="" class="link">No Comment</a>
+                                    </span>
+                                </div><!--post-footer-->
+                            </article>
+                            
+                            <article class="mb-4 bg-white">
+                                <div class="post-header">
+                                    <div class="time text-center">
+                                        <span class="date d-block">05</span>
+                                        <span class="months">August</span>
+                                    </div><!--time-->
+                                    <div class="title">
+                                        <h2>
+                                            <a href="">Postfix, Dovecot and Nginx TLS Encryption on Ubuntu 18.04</a>
+                                        </h2>
+                                        <span class="author mb-3">Written By <a href="" class="link">Amir</a></span>
+                                    </div><!--title-->
+                                </div><!--post-header-->
+                                <div class="post-content">
+                                    <p>
+                                        To be able to send email using desktop email client, we need to do a little bit configuration on Postfix. To receive email using desktop email client, we can install an open source IMAP server named Dovecot on Ubuntu 16.04 or 14.04 server. And to encrypt our communications, we need a TLS/SSL certificate for our...
+                                    </p>
+                                    <a href="" class="blue-btn">Read More</a>
+                                </div><!--post-content-->
+                                <div class="post-footer">
+                                    <span class="facebook_share">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=">
+                                            <img src="images/facebook_like.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="twitter_share">
+                                        <a href="https://twitter.com/intent/tweet?original_referer=/&ref_src=twsrc%5Etfw&text=&tw_p=tweetbutton&url=">
+                                            <img src="images/tweet.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="linkedin_share hidden-xs">
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/&title=&summary=1.%20Hit%20%E2%80%9CWindows%20Key%20+%20R%E2%80%9D%20to%20open%20the%20run%20dialogue%20box.%202.%20Enter%C2%A0diskpart%C2%A0and%20click%20%E2%80%9COK%E2%80%9D%20to%20open%20a%20black%20command%20prompt%20window.%20%E2%80%9Clist%20disk%E2%80%9D%20(It%20displays%20all%20the%20disks%20of%20your%20computer.%20)%20%E2%80%9Csel%20disk%200%E2%80%9D%20(...">
+                                            <img src="images/linked_share.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="google_share hidden-xs">
+                                        <a href="https://plus.google.com/share?url=">
+                                            <img src="images/google-plus-icon.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="post_comments">
+                                        <a href="" class="link">No Comment</a>
+                                    </span>
+                                </div><!--post-footer-->
+                            </article>
+                            
+                            <article class="mb-4 bg-white">
+                                <div class="post-header">
+                                    <div class="time text-center">
+                                        <span class="date d-block">05</span>
+                                        <span class="months">August</span>
+                                    </div><!--time-->
+                                    <div class="title">
+                                        <h2>
+                                            <a href="">Postfix, Dovecot and Nginx TLS Encryption on Ubuntu 18.04</a>
+                                        </h2>
+                                        <span class="author mb-3">Written By <a href="" class="link">Amir</a></span>
+                                    </div><!--title-->
+                                </div><!--post-header-->
+                                <div class="post-content">
+                                    <p>
+                                        To be able to send email using desktop email client, we need to do a little bit configuration on Postfix. To receive email using desktop email client, we can install an open source IMAP server named Dovecot on Ubuntu 16.04 or 14.04 server. And to encrypt our communications, we need a TLS/SSL certificate for our...
+                                    </p>
+                                    <a href="" class="blue-btn">Read More</a>
+                                </div><!--post-content-->
+                                <div class="post-footer">
+                                    <span class="facebook_share">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=">
+                                            <img src="images/facebook_like.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="twitter_share">
+                                        <a href="https://twitter.com/intent/tweet?original_referer=/&ref_src=twsrc%5Etfw&text=&tw_p=tweetbutton&url=">
+                                            <img src="images/tweet.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="linkedin_share hidden-xs">
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/&title=&summary=1.%20Hit%20%E2%80%9CWindows%20Key%20+%20R%E2%80%9D%20to%20open%20the%20run%20dialogue%20box.%202.%20Enter%C2%A0diskpart%C2%A0and%20click%20%E2%80%9COK%E2%80%9D%20to%20open%20a%20black%20command%20prompt%20window.%20%E2%80%9Clist%20disk%E2%80%9D%20(It%20displays%20all%20the%20disks%20of%20your%20computer.%20)%20%E2%80%9Csel%20disk%200%E2%80%9D%20(...">
+                                            <img src="images/linked_share.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="google_share hidden-xs">
+                                        <a href="https://plus.google.com/share?url=">
+                                            <img src="images/google-plus-icon.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="post_comments">
+                                        <a href="" class="link">No Comment</a>
+                                    </span>
+                                </div><!--post-footer-->
+                            </article>
+                            
+                            <article class="mb-4 bg-white">
+                                <div class="post-header">
+                                    <div class="time text-center">
+                                        <span class="date d-block">05</span>
+                                        <span class="months">August</span>
+                                    </div><!--time-->
+                                    <div class="title">
+                                        <h2>
+                                            <a href="">Postfix, Dovecot and Nginx TLS Encryption on Ubuntu 18.04</a>
+                                        </h2>
+                                        <span class="author mb-3">Written By <a href="" class="link">Amir</a></span>
+                                    </div><!--title-->
+                                </div><!--post-header-->
+                                <div class="post-content">
+                                    <p>
+                                        To be able to send email using desktop email client, we need to do a little bit configuration on Postfix. To receive email using desktop email client, we can install an open source IMAP server named Dovecot on Ubuntu 16.04 or 14.04 server. And to encrypt our communications, we need a TLS/SSL certificate for our...
+                                    </p>
+                                    <a href="" class="blue-btn">Read More</a>
+                                </div><!--post-content-->
+                                <div class="post-footer">
+                                    <span class="facebook_share">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=">
+                                            <img src="images/facebook_like.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="twitter_share">
+                                        <a href="https://twitter.com/intent/tweet?original_referer=/&ref_src=twsrc%5Etfw&text=&tw_p=tweetbutton&url=">
+                                            <img src="images/tweet.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="linkedin_share hidden-xs">
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=/&title=&summary=1.%20Hit%20%E2%80%9CWindows%20Key%20+%20R%E2%80%9D%20to%20open%20the%20run%20dialogue%20box.%202.%20Enter%C2%A0diskpart%C2%A0and%20click%20%E2%80%9COK%E2%80%9D%20to%20open%20a%20black%20command%20prompt%20window.%20%E2%80%9Clist%20disk%E2%80%9D%20(It%20displays%20all%20the%20disks%20of%20your%20computer.%20)%20%E2%80%9Csel%20disk%200%E2%80%9D%20(...">
+                                            <img src="images/linked_share.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="google_share hidden-xs">
+                                        <a href="https://plus.google.com/share?url=">
+                                            <img src="images/google-plus-icon.png"/>
+                                        </a>
+                                    </span>
+                                    <span class="post_comments">
+                                        <a href="" class="link">No Comment</a>
+                                    </span>
+                                </div><!--post-footer-->
+                            </article>
+                            
+                            <div class="pagination mb-3">
+                                <a href="" class="active">1</a>
+                                <a href="">2</a>
+                                <a href="">3</a>
+                                <a href="">...</a>
+                                <a href="">10</a>
+                                <a href="">Next »</a>
+                            </div><!--pagination-->
+                        </div><!--col-xs-12-->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <aside class="sidebar">
+                                <div class="widget bg-white mb-4 p-3 widget_search">
+                                    <form action="" method="post" style="margin-bottom:0;">
+                                        <fieldset class="d-flex">
+                                            <input type="text" name="search" class="form-control search mx-2" value="" placeholder="Search Now">
+                                            <input class="search_button mb-0" type="submit" value="Search">
+                                        </fieldset>
+                                    </form>
+                                </div><!--widget-->
+                                <div class="widget bg-white mb-4 p-3 newsletter ">
+                                    <h3 class="widget_title">SUBSCRIBE</h3>
+                                    <form action="#" method="post" class="subscribe_form">
+                                        <p>Sign up to be the first to know our newest products, updates and events.</p>
+                                        <input type="email" value="" class="form-control mb-2" placeholder="Email Address" name="email" required>
+                                        <input type="submit" class="subscribe w-100 text-uppercase" value="Subscribe">
+                                        <div class="ajax_loader_div">
+                                            <span class="ajax_loader d-none">
+                                                Processing... <img src="https://test.bytebunch.com/wp-content/themes/bbblog/images/loadingAnimation.gif" alt="" style="width: 100%;margin-top:5px;">
+                                            </span>
+                                            <span class="ajax_message"></span>
+                                        </div><!--ajax_loader_div-->
+                                    </form>
+                                </div><!--widget-->
+                                <div class="widget bg-white mb-4 p-3 tags">
+                                    <h3 class="widget_title">Tags</h3>
+                                    <div class="tagcloud">
+                                        <a href="">apache</a>
+                                        <a href="">Custom</a>
+                                        <a href="">Linux</a>
+                                        <a href="">Linux</a>
+                                        <a href="">Metabox</a>
+                                        <a href="">Metabox UI</a>
+                                        <a href="">node.js</a>
+                                        <a href="">nodejs</a>
+                                        <a href="">php</a>
+                                        <a href="">Plugins</a>
+                                        <a href="">postfix</a>
+                                        <a href="">Ubuntu</a>
+                                        <a href="">Ubuntu 20.04</a>
+                                        <a href="">Uncategorized</a>
+                                        <a href="">Windows</a>
+                                        <a href="">Wordpress</a>
+                                    </div><!--tagcloud-->
+                                </div><!--widget-->
+                                <div class="widget mb-4 tabs">
+                                    <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Recent Posts</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Popular Posts</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active p-3" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">How To Set Up and Configure an OpenVPN Server on Ubuntu 20.04</a>
+                                                        </span>
+                                                        <span class="post_meta">Dec 17, 2021</span>
+                                                    </div><!--info-->
+                                                </li>
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">How to Restrict SFTP Users to Home Directories Using chroot Jail – Ubuntu 20.04</a>
+                                                        </span>
+                                                        <span class="post_meta">Nov 14, 2020</span>
+                                                    </div><!--info-->
+                                                </li>
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">Set Up Authoritative DNS Server on Ubuntu 18.04, 16.04 with BIND9</a>
+                                                        </span>
+                                                        <span class="post_meta">Oct 11, 2019</span>
+                                                    </div><!--info-->
+                                                </li>
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">Email with Postfix, Dovecot, and MySQL on Ubuntu 18.04</a>
+                                                        </span>
+                                                        <span class="post_meta">Oct 07, 2019</span>
+                                                    </div><!--info-->
+                                                </li>	      
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade p-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">How To Set Up and Configure an OpenVPN Server on Ubuntu 20.04</a>
+                                                        </span>
+                                                        <span class="post_meta">Dec 17, 2021</span>
+                                                    </div><!--info-->
+                                                </li>
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">How to Restrict SFTP Users to Home Directories Using chroot Jail – Ubuntu 20.04</a>
+                                                        </span>
+                                                        <span class="post_meta">Nov 14, 2020</span>
+                                                    </div><!--info-->
+                                                </li>
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">Set Up Authoritative DNS Server on Ubuntu 18.04, 16.04 with BIND9</a>
+                                                        </span>
+                                                        <span class="post_meta">Oct 11, 2019</span>
+                                                    </div><!--info-->
+                                                </li>
+                                                <li>
+                                                    <div class="info">
+                                                        <span class="widgettitle">
+                                                            <a href="">Email with Postfix, Dovecot, and MySQL on Ubuntu 18.04</a>
+                                                        </span>
+                                                        <span class="post_meta">Oct 07, 2019</span>
+                                                    </div><!--info-->
+                                                </li>	      
+                                            </ul>
+                                        </div>
+                                    </div><!--tab-content-->
+                                </div><!--widget-->
+                            </aside>
+                        </div><!--col-xs-12-->
+                    </div><!--row-->
+                </div><!--col-md-12-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 footer-col">
+                    <h5>About Us</h5>
+                    <p>ByteBunch is a professional IT services company specializing in solutions for the web and mobile application development. We’re obsessed &amp; passionate web development company with the mission to use the right mix of technologies to come up with the right online solutions for your business.</p>
+                </div><!--col-lg-5-->
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <h5>Helpful Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-nav-links">Home</a></li>
+                        <li><a href="our-work.html" class="footer-nav-links">Our Work</a></li>
+                        <li><a href="services.html" class="footer-nav-links">Services</a></li>
+                        <li><a href="contact.html" class="footer-nav-links">Contact</a></li>
+                    </ul>
+                </div><!--col-lg-5-->
+                <div class="col-lg-4 col-md-6 footer-col">
+                    <h5>Contact Us</h5>
+                    <p>House No 87, Salman Block, <br>Nishter Colony, Lahore, Pakistan</p>
+                    <p>Phone: +92 324 4874422</p>
+                    <p>E-Mail: <a href="mailto:contact@bytebunch.com" class="link">contact@bytebunch.com</a></p>
+                </div><!--col-lg-5-->
+            </div><!--row-->
+            <section class="footer-bottom text-center py-3 border-top"> © 2018 ByteBunch. All Rights Reserved.</section>
+        </div><!--conatiner-->
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>

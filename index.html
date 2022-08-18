@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBunch -- Web Development Agency</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-white.svg" class="logo-img d-lg-inline-block d-none">
+                    <img src="images/logo-black.svg" class="logo-img d-inline-block d-lg-none">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-uppercase justify-content-center">
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="our-work.html">Our Work</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item header-nav-items">
+                            <a class="nav-link header-nav-links" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div><!--collapse-->
+            </div><!--container-->
+        </nav>
+        <img src="https://bytebunch.com/wp-content/themes/bytebunch/images/svg/bg-bottom.svg" class="bottom-bg">
+        <section class="welcome-area">
+            <div class="container">
+                <div class="row header-row">
+                    <div class="col-lg-6 col-md-12 mb-5">
+                        <h2 class="mb-4">Check out our recent websites we're working on.</h2>
+                        <p>We design and develop websites that delight your users and grow your business. Enterprise-grade development combined with outstanding design development.</p>
+                        <a href="our-work.php" class="btn-transparent btn-white">All Works</a>
+                    </div><!--col-lg-6-->
+                    <div class="col-lg-5 col-md-12 mb-5 offset-lg-1">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://dev.bytebunch.com/bioinnovationcentre.com/" class="app-item">
+                                    <img src="images/icon_bioinnovation.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://dev.bytebunch.com/induscover/" class="app-item">
+                                    <img src="images/icon_induscover.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://makewilleasy.com/" class="app-item">
+                                    <img src="images/icon-make-will-easy.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://test.bytebunch.com/" class="app-item">
+                                    <img src="images/bytebunch-icon.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://dev.bytebunch.com/readingrescuers.com/" class="app-item">
+                                    <img src="images/icon-rr.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://dev.bytebunch.com/gadzoog.com/" class="app-item">
+                                    <img src="images/icon-gadzoog.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://dev.bytebunch.com/carmeup.com/" class="app-item">
+                                    <img src="images/icon-carmeup.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <a href="https://dev.bytebunch.com/flexjobspot.nl/" class="app-item">
+                                    <img src="images/icon-flexjobspot.jpg" class="img-fluid">
+                                </a>
+                            </div><!--col-lg-3-->
+                        </div><!--row-->
+                    </div><!--col-lg-6-->
+                </div><!--row-->
+            </div><!--container-->
+        </section>
+    </header>
+
+    <!-- Services Section -->
+    <section class="content content-home">
+        <div class="container services-section">
+            <div class="row align-items-end">
+                <div class="col-lg-5 col-md-12">
+                    <h2>Start-to-end website development agency</h2>
+                    <p>ByteBunch has been providing technology solutions to solve specific business problems. We specialize in providing customized solutions to our customers based on their specific business needs. We have specialized team having expertise in Web Applications development and business software solutions such as CRM. We help you boost your business through our ready software solutions.</p>
+                    <p class="mb-4">We can build any type or size website you require, from small custom designed websites to highly advanced online stores. We also offer lots of help and advice along the way, so don’t stress on the off chance that you are not a web master, we have you secured. Not just this but we also give basic training for the best way to utilize your website.</p>
+                    <a href="services.php" class="btn-transparent btn-blue">SERVICES</a>
+                </div><!--col-lg-5-->
+                <div class="col-lg-6 col-md-12 offset-lg-1">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a href="#" class="home-services-item first-item">
+                                <h5 class="services-title">Wordpress Development Services</h5>
+                                <p>ByteBunch takes pride in offering Wordpress CMS development services to a wide range of clients, ranging from large scale industries to small scale enterprises.</p> 
+                            </a>
+                            <a href="#" class="home-services-item second-item">
+                                <h5 class="services-title">PHP Development Services</h5>
+                                <p>We provide expert PHP programming services for developing scale-able PHP applications from simple to complex web solutions based on your specific requirements.</p> 
+                            </a>
+                        </div><!--col-lg-6-->
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <a href="#" class="home-services-item active">
+                                <h5 class="services-title">E-Commerce Solutions</h5>
+                                <p>In this tech-savvy age, where everything is available on a single click, getting into an e-commerce business has become an ideal step to increase business revenues.</p> 
+                            </a>
+                            <a href="#" class="home-services-item">
+                                <h5 class="services-title">Ruby Development Services</h5>
+                                <p>Since 2014, Ruby on Rails developers we have been helping software companies/start-ups to deliver web applications faster &amp; at a lower cost. Over the years, we have matured to become expert.</p> 
+                            </a>
+                        </div><!--col-lg-6-->
+                    </div><!--row-->
+                </div><!--col-lg-5-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section py-5 my-5">
+        <div class="container text-center">
+            <h2 class="mb-4">PORTFOLIO</h2>
+            <p>We at ByteBunch love endless possibilities web technologies. Project to project we have developed, designed, and customized a variety of work. Technology is our specialty, but we always develop our projects based on the needs of our clients. Take a look at our work and see if our experience relates to some of your business goals.</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item justify-content-center mb-4">
+                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolio-item-1"> 
+                        <img src="images/bioinnovationcentre-400x290.png" class="img-responsive"> 
+                    </a>
+                    <div class="portfolio-caption text-center">
+                        <h4 class="text-dark">Bioinnovation Centre</h4>
+                        <p class="text-muted fst-italic"> Web Development Services</p>
+                    </div><!--portfolio-caption-->
+                </div><!--col-md-4-->
+                <div class="col-md-4 col-sm-6 portfolio-item justify-content-center mb-4">
+                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolio-item-2"> 
+                        <img src="images/induscoverservices-400x290.png" class="img-responsive"> 
+                    </a>
+                    <div class="portfolio-caption text-center">
+                        <h4 class="text-dark">Indus Cover Services</h4>
+                        <p class="text-muted fst-italic"> Web Development Services</p>
+                    </div><!--portfolio-caption-->
+                </div><!--col-md-4-->
+                <div class="col-md-4 col-sm-6 portfolio-item justify-content-center mb-4">
+                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolio-item-3"> 
+                        <img src="images/make-will-easy-400x290.png" class="img-responsive"> 
+                    </a>
+                    <div class="portfolio-caption text-center">
+                        <h4 class="text-dark">Make Will Easy</h4>
+                        <p class="text-muted fst-italic"> Web Development Services</p>
+                    </div><!--portfolio-caption-->
+                </div><!--col-md-4-->
+                <div class="col-md-4 col-sm-6 portfolio-item justify-content-center mb-4">
+                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolio-item-4"> 
+                        <img src="images/blog.bytebunccom-400x290.png" class="img-responsive"> 
+                    </a>
+                    <div class="portfolio-caption text-center">
+                        <h4 class="text-dark">ByteBunch Blog</h4>
+                        <p class="text-muted fst-italic"> Web Development Services</p>
+                    </div><!--portfolio-caption-->
+                </div><!--col-md-4-->
+                <div class="col-md-4 col-sm-6 portfolio-item justify-content-center mb-4">
+                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolio-item-5"> 
+                        <img src="images/readingrescuers-400x290.png" class="img-responsive"> 
+                    </a>
+                    <div class="portfolio-caption text-center">
+                        <h4 class="text-dark">Reading Rescuers, INC</h4>
+                        <p class="text-muted fst-italic"> Web Development Services</p>
+                    </div><!--portfolio-caption-->
+                </div><!--col-md-4-->
+                <div class="col-md-4 col-sm-6 portfolio-item justify-content-center mb-4">
+                    <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolio-item-6"> 
+                        <img src="images/gadzoog.com_-400x290.png" class="img-responsive"> 
+                    </a>
+                    <div class="portfolio-caption text-center">
+                        <h4 class="text-dark">Gadzoog</h4>
+                        <p class="text-muted fst-italic"> Web Development Services</p>
+                    </div><!--portfolio-caption-->
+                </div><!--col-md-4-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="our-team-section my-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Our Team</h1>
+            <div class="row my-4">
+                <div class="col-md-6">
+                    <div class="team mb-4">
+                        <div class="team_head d-flex my-3">
+                            <div class="profile">
+                                <img src="images/tahir-placeholder.jpg">
+                            </div><!--profile-->
+                            <div class="description">
+                                <strong><b>Tahir Anwer</b></strong> <br>
+                                <small><i>Senior Developer</i></small>
+                                <div class="social-links">
+                                    <a href=""><i class="fab fa-facebook-f"></i></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-github"></i></a>
+                                </div><!--social-links-->
+                            </div><!--description-->
+                        </div><!--team_head-->
+                        <div class="team_content my-3">
+                            <p>Full-Stack web developer with over 5 years experience in Wordpress (CMS). Self-learner, dedicated and always meet his deadline while focusing on quality work. Developed over 100+ websites during his carrier as senior developer in Nuqta for 3 years and 2 years as Freelancer.</p>
+                        </div><!--team_content-->
+                    </div><!--team-->
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="team mb-4 active">
+                        <div class="team_head d-flex my-3">
+                            <div class="profile">
+                                <img src="images/GS_Shahid.jpg">
+                            </div><!--profile-->
+                            <div class="description">
+                                <strong><b>Ghulam Sarwar (GS)</b></strong> <br>
+                                <small><i>Project Manager</i></small>
+                                <div class="social-links">
+                                    <a href=""><i class="fab fa-facebook-f"></i></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-github"></i></a>
+                                </div><!--social-links-->
+                            </div><!--description-->
+                        </div><!--team_head-->
+                        <div class="team_content my-3">
+                            <p>Web developer with over 3 years experience in full-stack MVC Framework (Ruby on Rails). Responsible, creative, ethical and hard working individual, focusing on quality work and eager to learn new things.</p>
+                        </div><!--team_content-->
+                    </div><!--team-->
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="team mb-4 active">
+                        <div class="team_head d-flex my-3">
+                            <div class="profile">
+                                <img src="images/Amir.jpg">
+                            </div><!--profile-->
+                            <div class="description">
+                                <strong><b>Amir Liaqat</b></strong> <br>
+                                <small><i>General Manager</i></small>
+                                <div class="social-links">
+                                    <a href=""><i class="fab fa-facebook-f"></i></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-github"></i></a>
+                                </div><!--social-links-->
+                            </div><!--description-->
+                        </div><!--team_head-->
+                        <div class="team_content my-3">
+                            <p>Web developer with over 1 year of experience in HTML, CSS, and PHP Development and WordPress Development(Theme, Plugins). Responsible, creative, ethical, and hard-working individual, focusing on quality work and eager to learn new things.</p>
+                        </div><!--team_content-->
+                    </div><!--team-->
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="team mb-4">
+                        <div class="team_head d-flex my-3">
+                            <div class="profile">
+                                <img src="images/tahir-placeholder.jpg">
+                            </div><!--profile-->
+                            <div class="description">
+                                <strong><b>Ahmad Ali</b></strong> <br>
+                                <small><i>Graphic Designer</i></small>
+                                <div class="social-links">
+                                    <a href=""><i class="fab fa-facebook-f"></i></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-github"></i></a>
+                                </div><!--social-links-->
+                            </div><!--description-->
+                        </div><!--team_head-->
+                        <div class="team_content my-3">
+                            <p>Graphic Designer with over 1-year experience in Game UI & UX. Creating game main panels, settings panels, selection panels, and all other game panels. Have better knowledge of Adobe Software (Adobe Photoshop, Adobe Illustrator). Making attractive and good-looking game UI & UX panels.</p>
+                        </div><!--team_content-->
+                    </div><!--team-->
+                </div><!--col-md-6-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!-- Modal Box 1 -->
+    <div class="portfolio-modal modal fade" id="portfolio-item-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content pb-5">
+                <div class="modal-header border-0">
+                    <a type="button" class="btn-close pt-5" data-bs-dismiss="modal" aria-label="Close" style="font-size: 48px; padding-right: 35px;"></a>
+                </div><!--modal-header-->
+                <div class="container text-center">
+                    <div class="modal-body">
+                        <h2 class="mb-5">Bioinnovation Centre</h2> 
+                        <img class="img-responsive img-centered" src="images/bioinnovationcentre.jpg" alt="Bioinnovation Centre">
+                        <p class="mt-4">You can preview 
+                            <a href="#" rel="nofollow" target="_blank">here</a>.
+                        </p> 
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            <i class="fa fa-times"></i> Close Project
+                        </button>
+                    </div><!--modal-body-->
+                </div><!--container-->
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--portfolio-modal-->
+    <!-- Modal Box 2 -->
+    <div class="portfolio-modal modal fade" id="portfolio-item-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content pb-5">
+                <div class="modal-header border-0">
+                    <a type="button" class="btn-close pt-5" data-bs-dismiss="modal" aria-label="Close" style="font-size: 48px; padding-right: 35px;"></a>
+                </div><!--modal-header-->
+                <div class="container text-center">
+                    <div class="modal-body">
+                        <h2 class="mb-5">Indus Cover Services</h2> 
+                        <img class="img-responsive img-centered" src="images/induscoverservices.jpg" alt="Bioinnovation Centre">
+                        <p class="mt-4">You can preview 
+                            <a href="#" rel="nofollow" target="_blank">here</a>.
+                        </p> 
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            <i class="fa fa-times"></i> Close Project
+                        </button>
+                    </div><!--modal-body-->
+                </div><!--container-->
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--portfolio-modal-->
+    <!-- Modal Box 3 -->
+    <div class="portfolio-modal modal fade" id="portfolio-item-3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content pb-5">
+                <div class="modal-header border-0">
+                    <a type="button" class="btn-close pt-5" data-bs-dismiss="modal" aria-label="Close" style="font-size: 48px; padding-right: 35px;"></a>
+                </div><!--modal-header-->
+                <div class="container text-center">
+                    <div class="modal-body">
+                        <h2 class="mb-5">Make Will Easy</h2> 
+                        <img class="img-responsive img-centered" src="images/make-will-easy.jpg" alt="Bioinnovation Centre">
+                        <p class="mt-4">You can preview 
+                            <a href="#" rel="nofollow" target="_blank">here</a>.
+                        </p> 
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            <i class="fa fa-times"></i> Close Project
+                        </button>
+                    </div><!--modal-body-->
+                </div><!--container-->
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--portfolio-modal-->
+    <!-- Modal Box 4 -->
+    <div class="portfolio-modal modal fade" id="portfolio-item-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content pb-5">
+                <div class="modal-header border-0">
+                    <a type="button" class="btn-close pt-5" data-bs-dismiss="modal" aria-label="Close" style="font-size: 48px; padding-right: 35px;"></a>
+                </div><!--modal-header-->
+                <div class="container text-center">
+                    <div class="modal-body">
+                        <h2 class="mb-5">ByteBunch Blog</h2> 
+                        <img class="img-responsive img-centered" src="images/blog.bytebunccom.png" alt="Bioinnovation Centre">
+                        <p class="mt-4">You can preview 
+                            <a href="#" rel="nofollow" target="_blank">here</a>.
+                        </p> 
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            <i class="fa fa-times"></i> Close Project
+                        </button>
+                    </div><!--modal-body-->
+                </div><!--container-->
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--portfolio-modal-->
+    <!-- Modal Box 5 -->
+    <div class="portfolio-modal modal fade" id="portfolio-item-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content pb-5">
+                <div class="modal-header border-0">
+                    <a type="button" class="btn-close pt-5" data-bs-dismiss="modal" aria-label="Close" style="font-size: 48px; padding-right: 35px;"></a>
+                </div><!--modal-header-->
+                <div class="container text-center">
+                    <div class="modal-body">
+                        <h2 class="mb-5">Reading Rescuers, INC</h2> 
+                        <img class="img-responsive img-centered" src="images/readingrescuers.png" alt="Bioinnovation Centre">
+                        <p class="mt-4">You can preview 
+                            <a href="#" rel="nofollow" target="_blank">here</a>.
+                        </p> 
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            <i class="fa fa-times"></i> Close Project
+                        </button>
+                    </div><!--modal-body-->
+                </div><!--container-->
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--portfolio-modal-->
+    <!-- Modal Box 6 -->
+    <div class="portfolio-modal modal fade" id="portfolio-item-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog m-0" role="document">
+            <div class="modal-content pb-5">
+                <div class="modal-header border-0">
+                    <a type="button" class="btn-close pt-5" data-bs-dismiss="modal" aria-label="Close" style="font-size: 48px; padding-right: 35px;"></a>
+                </div><!--modal-header-->
+                <div class="container text-center">
+                    <div class="modal-body">
+                        <h2 class="mb-5">Gadzoog</h2> 
+                        <img class="img-responsive img-centered" src="images/gadzoog.com_.jpg" alt="Bioinnovation Centre">
+                        <p class="mt-4">You can preview 
+                            <a href="#" rel="nofollow" target="_blank">here</a>.
+                        </p> 
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            <i class="fa fa-times"></i> Close Project
+                        </button>
+                    </div><!--modal-body-->
+                </div><!--container-->
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--portfolio-modal-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 footer-col">
+                    <h5>About Us</h5>
+                    <p>ByteBunch is a professional IT services company specializing in solutions for the web and mobile application development. We’re obsessed &amp; passionate web development company with the mission to use the right mix of technologies to come up with the right online solutions for your business.</p>
+                </div><!--col-lg-5-->
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <h5>Helpful Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-nav-links">Home</a></li>
+                        <li><a href="our-work.html" class="footer-nav-links">Our Work</a></li>
+                        <li><a href="services.html" class="footer-nav-links">Services</a></li>
+                        <li><a href="contact.html" class="footer-nav-links">Contact</a></li>
+                    </ul>
+                </div><!--col-lg-5-->
+                <div class="col-lg-4 col-md-6 footer-col">
+                    <h5>Contact Us</h5>
+                    <p>House No 87, Salman Block, <br>Nishter Colony, Lahore, Pakistan</p>
+                    <p>Phone: +92 324 4874422</p>
+                    <p>E-Mail: <a href="mailto:contact@bytebunch.com" class="link">contact@bytebunch.com</a></p>
+                </div><!--col-lg-5-->
+            </div><!--row-->
+            <section class="footer-bottom text-center py-3 border-top"> © 2018 ByteBunch. All Rights Reserved.</section>
+        </div><!--conatiner-->
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
